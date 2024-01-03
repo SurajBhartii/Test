@@ -6,7 +6,7 @@
   <body>
     <div class="container">
       <div>
-        <h1 class="header_text">Gudiya Moti pagal hai kya?</h1>
+        <h1 class="header_text">Sorry Annu Bro</h1>
       </div>
       <p>
       </p>
@@ -17,7 +17,7 @@
         />
       </div>
       <div class="buttons">
-        <button class="btn" id="yesButton" onclick="nextPage()">yes</button>
+        <button class="btn" id="yAcceptedButton" onclick="nextPage()">Accepted</button>
         <button
 
           class="btn"
@@ -25,7 +25,7 @@
           onmouseover="moveButton()"
           onclick="moveButton()"
         >
-          no
+          Not Accepted
         </button>
         <script>
           function nextPage() {
@@ -36,13 +36,13 @@
             var x =
               Math.random() *
               (window.innerWidth -
-                document.getElementById("noButton").offsetWidth);
+                document.getElementById("NOt AcceptedButton").offsetWidth);
             var y =
               Math.random() *
               (window.innerHeight -
-                document.getElementById("noButton").offsetHeight);
-            document.getElementById("noButton").style.left = `${x}px`;
-            document.getElementById("noButton").style.top = `${y}px`;
+                document.getElementById("Not AcceptedButton").offsetHeight);
+            document.getElementById("Not AcceptedButton").style.left = `${x}px`;
+            document.getElementById("NOt AcceptedButton").style.top = `${y}px`;
           }
         </script>
       </div>
